@@ -6,14 +6,12 @@ authors = [
     {name = "Junzi Sun",email = "j.sun-1@tudelft.nl"}
 ]
 license = {text = "GNU General Public License v3 (GPLv3)"}
-readme = "README.md"
 requires-python = "^3.9"
 dependencies = [
     "numpy (>=1.26)",
     "pyzmq (>=24.0)",
     "pyrtlsdr (>=0.2.93)"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
